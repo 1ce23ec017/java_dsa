@@ -1,0 +1,11 @@
+package day_6;
+
+public class binary {
+	public static void main(String[] args) {
+		int [] arr = {1,2,3,4,5};
+		int key = 4;
+		int result = binary(arr,key);
+		
+	}
+
+}

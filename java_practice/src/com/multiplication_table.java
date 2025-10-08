@@ -1,0 +1,14 @@
+package com;
+
+public class multiplication_table {
+	public static void main(String[] args) {
+		int num = 4;
+		
+		for (int i=1 ; 1<=10 ; i--) {
+			System.out.println(num + "x" + i + "=" + (num * i));
+		
+		}
+		
+	}
+
+}

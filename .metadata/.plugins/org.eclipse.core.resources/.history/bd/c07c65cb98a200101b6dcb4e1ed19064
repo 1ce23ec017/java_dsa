@@ -1,0 +1,10 @@
+package example;
+
+public class Selection_sort {
+	public static void main(String[] args) {
+		int arr[]= {29,10,14,37,13};
+		int swaps=selectionSort(arr);
+		
+	}
+
+}

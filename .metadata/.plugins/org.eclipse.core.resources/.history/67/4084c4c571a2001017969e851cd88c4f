@@ -1,0 +1,19 @@
+package example;
+
+public class factorial {
+	public static void main(String[] args) {
+		int num=5;
+		long factorial = calculateFactorial(num);
+		System.out.println("factorial of"+num+"is");
+		
+	}
+	public static long calculateFactorial(int num) {
+		if(num==0||num==1) {
+			return 1;
+		}else {
+			return num*calculateFactorial(num-1);
+		}
+		
+	}
+
+}

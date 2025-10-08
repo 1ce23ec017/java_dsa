@@ -1,0 +1,20 @@
+package com;
+
+public class adultteenchild {
+	public static void main(String[] args) {
+		int age = 6;
+		if (age==18) {
+			System.out.println("he is adult");
+		}
+		else if(age>50){
+			System.out.println("the person is aged");
+		}
+		
+
+		else
+		{
+			System.out.println("he is child");
+		}
+		}
+
+}

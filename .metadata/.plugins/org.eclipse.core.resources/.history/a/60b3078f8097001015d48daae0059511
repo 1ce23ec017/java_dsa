@@ -1,0 +1,12 @@
+package com;
+
+public class P3 {
+	private static void main(String[] args) {
+	 int a = 1;
+	 int b = 2;
+	 int product= a*b;
+	 System.out.println("the product of a and b is:"+product);
+	}
+
+}     
+ 

@@ -1,0 +1,16 @@
+package com;
+
+import java.util.Scanner;
+
+public class even_number {
+	public static void main(String[] args) {
+		System.out.println("enter a number");
+		Scanner sc = new Scanner(System.in);
+		int[] arr = {1,2,3,4,5};
+		for (int i : arr) {
+			if (i % 2 == 0) continue;
+			System.out.print(i + " ");
+		}
+	}
+
+}
